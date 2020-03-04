@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.github.sigute.accessibilitydemo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning">
+
+        <activity android:name="com.github.sigute.accessibilitydemo.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.github.sigute.accessibilitydemo.GroupingActivity"
+            android:label="@string/title_grouping">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.github.sigute.accessibilitydemo.MainActivity" />
+        </activity>
+
+        <activity
+            android:name="com.github.sigute.accessibilitydemo.RolesAndActionsActivity"
+            android:label="@string/title_roles_and_actions">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.github.sigute.accessibilitydemo.MainActivity" />
+        </activity>
+
+        <activity
+            android:name="com.github.sigute.accessibilitydemo.StateChangesActivity"
+            android:label="@string/title_stage_changes">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.github.sigute.accessibilitydemo.MainActivity" />
+        </activity>
+
+        <activity
+            android:name="com.github.sigute.accessibilitydemo.RecyclerViewScrollingActivity"
+            android:label="@string/title_recycler_view_scrolling">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.github.sigute.accessibilitydemo.MainActivity" />
+        </activity>
+
+        <activity
+            android:name="com.github.sigute.accessibilitydemo.RecyclerViewFocusActivity"
+            android:label="@string/title_recycler_view_focus">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.github.sigute.accessibilitydemo.MainActivity" />
+        </activity>
+
+    </application>
+
+</manifest>

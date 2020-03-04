@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">AccessibilityDemo</string>
+
+    <string name="title_grouping">Grouping</string>
+    <string name="title_roles_and_actions">Roles and Actions</string>
+    <string name="title_stage_changes">State Changes</string>
+    <string name="title_recycler_view_scrolling">RecyclerView Scrolling</string>
+    <string name="title_recycler_view_focus">RecyclerView Focus</string>
+
+    <string name="grouping_bad_description">An example of bad grouping.</string>
+    <string name="grouping_improved_description">An example of improved grouping.</string>
+
+    <string name="user_name_example">Name</string>
+    <string name="user_surname_example">Surname</string>
+    <string name="placeholder_avatar_content_description_example">User placeholder avatar</string>
+    <string name="content_description_user_combined">Name Surname</string>
+
+    <string name="button_login">Login</string>
+    <string name="button_role">Button</string>
+    <string name="roles_description">An example of the roles.\nThe following components are Button, TextView with listener, TextView with listener and role.</string>
+
+    <string name="content_description_edit_note">Edit note</string>
+    <string name="action_edit_note">Edit note</string>
+    <string name="action_copy_note">Copy note</string>
+    <string name="actions_description">An example of actions.\nThe following elements have tap and long tap actions, one is default and the other sets additional action descriptions.</string>
+    <string name="recycler_view_non_scrolling_description">The following RecyclerView cannot scroll to all elements with Talkback.</string>
+    <string name="recycler_view_scrolling_description">The following RecyclerView scrolls to all elements with Talkback.</string>
+    <string name="recycler_view_lost_focus">The following RecyclerView loses focus with Talkback.</string>
+    <string name="recycler_view_with_focus">The following RecyclerView does not loose focus with Talkback.</string>
+    <string name="content_description_delete_item">Delete item</string>
+    <string name="description_state_changes">An example of states changes.\nFirst button does not update accessibility information, including content description and action, second one does.</string>
+    <string name="content_description_favorite">Favorite item</string>
+    <string name="content_description_not_favorite">Not favorite item</string>
+    <string name="content_description_action_favorite">Add to favorites</string>
+    <string name="content_description_action_remove_from_favorites">Remove from favorites</string>
+    <string name="item_deleted_x">Deleted %s</string>
+</resources>
